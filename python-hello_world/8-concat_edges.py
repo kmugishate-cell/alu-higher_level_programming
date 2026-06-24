@@ -2,4 +2,4 @@
 word = "object-oriented programming with Python"
 number = 42
 phrase = "is fun"
-print(word[0:27] + word[27:33] + word[-6:])
+print(word[:number-15] + word[number-15:number-9] + word[number-9:])
